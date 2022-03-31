@@ -1,1 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prova em Java Script</title>
+    <link rel="shortcute icon" href="Panda.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+    <section>
+        <div class="div1">
+            <div class="div2">
+                <h2>
+                    Prova em Javascript
+                </h2>
+            </div>
 
+            <!-- Questao 1 -->
+            <div class="div-questao">
+            <h1 class="titulo">
+                1- Quanto tempo um ser humano pode ficar sem beber água? (3 pontos)
+            </h1>
+
+        <form name="form1" action="#">
+            <div class="divform">
+                <label id="verdeq1">
+                    <input class="desabilitar1" type="radio" name="form1-opcao"  onchange="q1oa()">3 Dias
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq1b">
+                    <input class="desabilitar2" type="radio"  name="form1-opcao"  onchange="q1ob()">7 Dias
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq1c">
+                    <input class="desabilitar3" type="radio"  name="form1-opcao"  onchange="q1oc()">2 Dias
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq1d">  
+                    <input class="desabilitar4" type="radio"  name="form1-opcao"  onchange="q1od()">10 Dias
+                </label>
+            </div>
+            </div>
+        </form>
+
+            <!-- Questao 2 -->
+            <div class="div-questao">
+            <h1 class="titulo">
+                2- Qual foi o ano que o homem pisou na lua? (3 pontos)
+            </h1>
+
+        <form name="form2" action="#">
+            <div class="divform">
+                <label id="vermelhoq2a">
+                    <input class="desabilitar5" type="radio" name="form2-opcao"  onchange="q2oa()">1968
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq2b">
+                    <input class="desabilitar6" type="radio" name="form2-opcao"  onchange="q2ob()">1960
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="verdeq2">
+                    <input class="desabilitar7" type="radio" name="form2-opcao"  onchange="q2oc()">1969
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq2d">
+                    <input class="desabilitar8" type="radio" name="form2-opcao"  onchange="q2od()">1970
+                </label>
+            </div>
+            </div>
+        </form>
+
+            <!-- Questao 3 -->
+            <div class="div-questao">
+            <h1 class="titulo">
+                3- Quem descobriu a gravidade? (2 pontos)
+            </h1>
+        <form name="form3" action="#">   
+            <div class="divform">
+                <label id="vermelhoq3a">
+                    <input class="desabilitar9" type="radio" name="form3-opcao" onchange="q3oa()">Albert einstein
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq3b">
+                    <input class="desabilitar10" type="radio" name="form3-opcao" onchange="q3ob()">Marie Curie
+                </label>
+            </div>
+        
+            <div class="divform">
+                <label id="verdeq3">
+                    <input class="desabilitar11" type="radio" name="form3-opcao" onchange="q3oc()">Isaac newton
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq3d">
+                    <input class="desabilitar12" type="radio" name="form3-opcao" onchange="q3od()" >Nicolas Tesla
+                </label>
+            </div>
+            </div>
+        </form>
+
+            <!-- Questao 4 -->
+            <div class="div-questao">
+            <h1 class="titulo">
+                4- Qual foi o ano da independência do brasil (2 pontos)
+            </h1>
+
+        <form name="form4" action="#">
+            <div class="divform">
+                <label id="verdeq4">
+                    <input class="desabilitar13" type="radio" name="form4-opcao" onchange="q4oa()"> 1822
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq4b">
+                    <input class="desabilitar14" type="radio" name="form4-opcao" onchange="q4ob()"> 1800
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq4c">
+                    <input class="desabilitar15" type="radio" name="form4-opcao" onchange="q4oc()"> 1850
+                </label>
+            </div>
+
+            <div class="divform">
+                <label id="vermelhoq4d" >
+                    <input class="desabilitar16" type="radio" name="form4-opcao" onchange="q4od()"> 1835
+                </label>
+            </div>
+            </div>
+        </form>
+
+            <div class="button">
+                <button id="enviar" onclick="enviar()" value="enviar">enviar</button>
+                <button id="refazer" onclick="refazer()">Refazer Teste</button>
+                    <p id="pontos"></p>
+                    <h5 id="passou"></h5>
+                    <h6 id="reprovou"></h6>
+                    <p id="pontuacao"></p>
+            </div>
+
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
