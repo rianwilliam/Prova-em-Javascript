@@ -148,4 +148,45 @@ input:focus {
     body {
         margin: 10px;
     }
+        #enviar {
+        border: none;
+        border-radius: 6px;
+        padding: 10px 30px 10px 30px;
+        cursor: pointer;
+        margin: 20px;
+        background-color: #673AB7;
+        color: white;
+    }
+    
+    #enviar:hover {
+        background-color: #3c049e;
+        transition: all 300ms ease-in-out;
+    }
+    
+    #refazer {
+        border: none;
+        border-radius: 6px;
+        padding: 10px 20px 10px 20px;
+        cursor: pointer;
+        margin: 20px;
+        background-color: #673AB7;
+        color: white;
+        margin-left: -118px;
+    }
+    
+    #refazer:hover {
+        background-color: #3c049e;
+        transition: all 300ms ease-in-out;
+    }
+    #reprovou {
+        font-size: 16px;
+        padding: 0px;
+        margin: 0px;
+    }
+    #passou {
+        font-size: 16px;
+        text-align: left;
+        padding: 0px;
+        margin: 0px;
+    }
 }
